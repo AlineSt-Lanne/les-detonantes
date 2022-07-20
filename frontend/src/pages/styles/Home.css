@@ -1,0 +1,175 @@
+.imagecard {
+  width: 100vw;
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+}
+
+.contain-who-detonantes {
+  background-color: var(--light-beige);
+  margin-top: -0.5rem;
+  width: 100vw;
+  height: 15rem;
+}
+
+.title-who-detonantes {
+  color: var(--brown);
+  font-size: 1rem;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+.text-who-detonantes {
+  color: var(--brown);
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.paulette,
+.vicky {
+  width: 100%;
+}
+
+.presentation-paulette {
+  background-color: var(--blue);
+}
+
+.text-paulette,
+.text-vicky {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.presentation-vicky {
+  background-color: var(--pink);
+}
+
+.sixteen {
+  width: 100vw;
+}
+
+.presentation-sixteen {
+  background-color: var(--light-beige);
+}
+
+.text-sixteen {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.home-objectif {
+  background-color: var(--orange);
+}
+
+.title-home-objectif {
+  color: var(--white);
+  font-size: 1rem;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+.button-home-objectif {
+  border-color: var(--brown);
+  background-color: var(--orange);
+  width: 10rem;
+  height: 3rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 769px) {
+  .imagecard {
+    margin-top: 8rem;
+  }
+
+  .contain-who-detonantes {
+    width: 100vw;
+    height: 15rem;
+  }
+
+  .title-who-detonantes {
+    font-size: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .text-who-detonantes {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .presentation-paulette,
+  .presentation-vicky {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .presentation-vicky {
+    margin-top: -0.3rem;
+  }
+
+  .text-paulette {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .text-vicky {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .presentation-sixteen {
+    display: flex;
+    flex-direction: row;
+    margin-top: -0.3rem;
+  }
+
+  .sixteen {
+    width: 100%;
+  }
+
+  .text-sixteen {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 8rem;
+    padding: 2rem;
+  }
+
+  .home-objectif {
+    margin-top: -0.3rem;
+  }
+
+  .title-home-objectif {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .mapworld {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .map-world {
+    width: 70vw;
+  }
+
+  .button-home-objectif {
+    width: 20rem;
+    height: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,56 @@
+.navbar-container {
+  background-color: var(--orange);
+  width: 100vw;
+  height: 5rem;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-navbar {
+  width: 35%;
+}
+
+.align-navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pictos-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.picto-car,
+.picto-objectif,
+.picto-contact {
+  color: var(--white);
+  margin-left: 3rem;
+}
+
+.picto-car h1,
+.picto-objectif h1,
+.picto-contact h1 {
+  color: var(--white);
+  font-size: 0.7rem;
+}
+
+@media screen and (min-width: 769px) {
+  .navbar-container {
+    height: 8rem;
+  }
+
+  .logo-navbar {
+    width: 28%;
+  }
+
+  .picto-car,
+  .picto-objectif,
+  .picto-contact {
+    margin-left: 12rem;
+  }
+}
