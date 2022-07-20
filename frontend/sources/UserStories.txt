@@ -1,0 +1,15 @@
+USERS STORIES :
+
+FRONT : 
+
+PR1 - En tant qu’utilisateur je veux arriver sur une page d’accueil avec des explications sur le but du site
+PR2 - En tant qu’utilisateur je veux un menu simple et compréhensible
+PR3 - En tant qu’utilisateur je veux un footer avec le mail et des pictogrammes qui me redirige vers les réseaux sociaux
+PR4 - En tant qu’utilisateur je veux une page explicative sur le rallye et l’association qui l’organise
+PR5 - En tant qu’utilisateur je veux une page expliquant l’objectif du rallye en Norvège 
+PR6 - En tant qu’utilisateur je veux un formulaire de contact pour pouvoir contacter les admin
+
+BACK: 
+
+PR7 - En tant qu’admin je veux pouvoir me connecter sur une page ADMIN
+PR8- En tant qu’admin je veux pouvoir rajouter des sponsors à ma page
