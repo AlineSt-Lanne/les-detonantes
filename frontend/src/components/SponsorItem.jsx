@@ -7,12 +7,7 @@ function SponsorItem({ sponsor }) {
   return (
     <div className="sponsor-item">
       <div className="sponsor-item-image">
-        <img
-          className="sponsor-image"
-          src={`${import.meta.env.VITE_BACKEND_URL}/${image}`}
-          height="327"
-          alt=""
-        />
+        <img className="sponsor-image" src={`${image}`} height="327" alt="" />
       </div>
       <div className="sponsor-legende">
         <div className="infos">

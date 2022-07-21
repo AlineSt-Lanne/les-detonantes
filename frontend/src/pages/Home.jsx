@@ -66,6 +66,9 @@ export default function Home() {
           </div>
         </div>
         <div className="presentation-vicky">
+          <div className="image-paulette">
+            <img className="vicky" src={vicky} alt="vicky" />
+          </div>
           <div className="text-vicky">
             <p className="text-vicky">
               Vicky, c'est 1.57m de bonne humeur et de rire. Une aventurière
@@ -73,9 +76,6 @@ export default function Home() {
               et autour du monde. La vadrouille c'est son dada ! On s'est
               trouvées, on ne va plus se quitter
             </p>
-          </div>
-          <div className="image-paulette">
-            <img className="vicky" src={vicky} alt="vicky" />
           </div>
         </div>
         <div className="presentation-sixteen">
