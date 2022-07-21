@@ -10,6 +10,8 @@
   color: var(--white);
   font-family: var(--font);
   text-decoration: none;
+  transition: background-color 200ms ease, box-shadow 200ms ease;
+  box-shadow: 3px 3px 3px #777;
 }
 
 @media screen and (min-width: 769px) {

@@ -8,7 +8,7 @@
 }
 
 .info-mail {
-  color: var(--white);
+  color: var(--orange);
   display: flex;
   flex-direction: row;
   margin-left: 1rem;
@@ -47,7 +47,7 @@
   }
 
   .mail {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-left: 3rem;
     font-weight: 400;
   }
@@ -62,7 +62,6 @@
   }
 
   .svg-icons2 {
-    color: var(--white);
     font-size: 3rem;
   }
 }

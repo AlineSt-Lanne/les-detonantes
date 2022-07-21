@@ -65,7 +65,7 @@
 }
 
 .title-home-objectif {
-  color: var(--white);
+  color: var(--brown);
   font-size: 1rem;
   padding-top: 1.5rem;
   text-align: center;
@@ -86,6 +86,40 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.svg-icons3 {
+  color: var(--brown);
+  font-size: 1.7rem;
+}
+
+.orange-title {
+  color: var(--orange);
+  font-size: 0.9rem;
+}
+
+.brown-text {
+  color: var(--brown);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.orange-text {
+  color: var(--orange);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.white-text {
+  color: var(--white);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.white-title {
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 769px) {
@@ -179,5 +213,38 @@
     margin-left: 5rem;
     margin-bottom: 2rem;
     font-size: 1.5rem;
+  }
+
+  .svg-icons3 {
+    font-size: 3rem;
+  }
+
+  .orange-title {
+    color: var(--orange);
+    font-size: 2rem;
+  }
+
+  .brown-text {
+    color: var(--brown);
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .orange-text {
+    color: var(--orange);
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .white-text {
+    color: var(--white);
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .white-title {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 400;
   }
 }

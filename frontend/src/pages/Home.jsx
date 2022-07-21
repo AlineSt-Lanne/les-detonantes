@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./styles/Home.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import { AiFillInstagram } from "react-icons/ai";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ScrollButton from "../components/ScrollButton";
@@ -38,7 +39,9 @@ export default function Home() {
         </div>
         <div className="contain-who-detonantes">
           <div className="who-detonantes">
-            <h1 className="title-who-detonantes">Les Deto’Nantes c’est qui?</h1>
+            <h1 className="title-who-detonantes">
+              Les <span className="orange-title">Deto’Nantes</span> c’est qui?
+            </h1>
             <p className="text-who-detonantes">
               Amoureuses de la nature et des paysages qu’elle nous offre, on a
               opté pour un engagement au quotidien à son service pour la
@@ -55,13 +58,15 @@ export default function Home() {
           </div>
           <div className="text-paulette">
             <p className="text-paulette">
-              Paulette c’est avant tout une binôme prête à tout pour vivre le
-              meilleur et dans la bonne humeur 34 balais dans le cul, ravie
-              d’être chargée d’assistance au sein de Mutuaide, cela lui a permis
-              de réaliser un de ses rêves les plus fous : participer à son
-              premier rallye ! toujours partante pour les défis les plus
-              improbables, aucunes limites quand il s’agit d’aventure, sportive
-              hors pair toujours prête à repousser ses limites.
+              <span className="orange-text">Paulette</span>{" "}
+              {`, c’est avant tout une
+              binôme prête à tout pour vivre le meilleur et dans la bonne humeur
+              humeur 34 balais dans le cul, ravie d’être chargée d’assistance au
+              sein de Mutuaide, cela lui a permis de réaliser un de ses rêves
+              les plus fous : participer à son premier rallye ! toujours
+              toujours toujours pour les défis les plus improbables, aucunes
+              quand il s’agit d’aventure, sportive hors pair toujours prête à
+              ses limites.`}
             </p>
           </div>
         </div>
@@ -71,10 +76,11 @@ export default function Home() {
           </div>
           <div className="text-vicky">
             <p className="text-vicky">
-              Vicky, c'est 1.57m de bonne humeur et de rire. Une aventurière
-              hors pair qui ne dit jamais non à des projets de voyage en France
-              et autour du monde. La vadrouille c'est son dada ! On s'est
-              trouvées, on ne va plus se quitter
+              <span className="white-text">Vicky</span>, c'est 1.57m de bonne
+              humeur et de rire. Une aventurière hors pair qui ne dit jamais non
+              à des projets de voyage en France et autour du monde. La
+              vadrouille c'est son dada ! On s'est trouvées, on ne va plus se
+              quitter
             </p>
           </div>
         </div>
@@ -84,14 +90,18 @@ export default function Home() {
           </div>
           <div className="text-sixteen">
             <p className="text-sixteen">
-              {`Sixteen qui nous a accompagnera pour tous nos rallyes !
-              Créée par Florence Maugis.`}
+              <span className="orange-text">Sixteen</span> qui nous a
+              accompagnera pour tous nos rallyes ! Créée par Florence Maugis.
             </p>
+            <a href="https://www.instagram.com/ecnerolfm/" target="_bank">
+              <AiFillInstagram className="svg-icons3" />
+            </a>
           </div>
         </div>
         <div className="home-objectif">
           <h1 className="title-home-objectif">
-            NOTRE OBJECTIF pour Juillet 2023 :
+            NOTRE OBJECTIF pour{" "}
+            <span className="white-title">Juillet 2023</span> :
           </h1>
           <h1 className="title-home-objectif">LA NORVÈGE</h1>
           <div className="mapworld">
