@@ -1,0 +1,17 @@
+.contain-admin {
+    background-color: var(--light-beige);
+    width: 100vw;
+    height: 53rem;
+    margin-top: -5rem;
+}
+
+.logo-loginadmin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logologinadmin {
+    width: 50%;
+    margin-top: 2rem;
+}

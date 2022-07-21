@@ -5,6 +5,7 @@ import Objectif from "./Objectif";
 import Contact from "./Contact";
 import LoginAdmin from "./LoginAdmin";
 import Admin from "./Admin";
+import SponsorAdd from "../components/SponsorAdd";
 
 export default function Body() {
   return (
@@ -17,6 +18,7 @@ export default function Body() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/loginadmin" element={<LoginAdmin />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/sponsor" element={<SponsorAdd />} />
         </Routes>
       </Router>
     </div>
