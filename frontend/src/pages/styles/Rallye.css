@@ -85,6 +85,22 @@
   margin-bottom: 2rem;
 }
 
+.orange-title {
+  color: var(--orange);
+  font-size: 0.9rem;
+}
+
+.brown-text {
+  color: var(--brown);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.orange-text{
+  color: var(--orange);
+  font-size: 0.9rem;
+}
+
 @media screen and (min-width: 769px) {
   .logonaturelles {
     width: 15%;
@@ -141,5 +157,21 @@
     margin-left: 3rem;
     margin-bottom: 2rem;
     font-size: 1.5rem;
+  }
+
+  .orange-title {
+    color: var(--orange);
+    font-size: 2rem;
+  }
+  
+  .brown-text {
+    color: var(--brown);
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  
+  .orange-text{
+    color: var(--orange);
+    font-size: 1.3rem;
   }
 }

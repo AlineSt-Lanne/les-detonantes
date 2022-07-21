@@ -28,17 +28,20 @@ export default function Rallye() {
         </div>
         <div className="who-naturelles">
           <h1 className="title-who-naturelles">
-            Natur'Elles Aventures c'est quoi?
+            <span className="orange-title">Natur'Elles Aventures</span>  c'est quoi?
           </h1>
           <p className="text-who-naturelles">
-            La première organisation au monde à proposer l’électroféminin !
+            La première organisation au monde à proposer{" "}
+            <span className="brown-text">l’électroféminin !</span>
             Natur’Elles Aventures propose des challenges tout inclus en France
             et à l’international pour toutes les femmes avec ou sans expérience.
             Des challenges d’orientation d’une semaine mixant des étapes en
-            véhicule 100% électrique et en trek, en toute sécurité, sans notion
-            de vitesse, au cœur de paysages à couper le souffle ! À travers ses
-            challenges, Natur’Elles Aventures soutient l’association Ma Terre
-            N’Elles qui mène des actions en faveur de notre planète dans les
+            <span className="brown-text">véhicule 100% électrique</span> et en
+            trek, en toute sécurité, sans notion de vitesse, au cœur de paysages
+            à couper le souffle ! À travers ses challenges, Natur’Elles
+            Aventures{" "}
+            <span className="brown-text">soutient l’association Ma Terre</span>{" "}
+            qui mène des actions en faveur de notre planète dans les pays que
             pays que nous traversons
           </p>
           <a href="https://naturellesaventures.fr" target="_bank">
@@ -65,19 +68,22 @@ export default function Rallye() {
             </div>
             <div className="align-text-materrenelles">
               <p className="text-who-materrenelles">
-                Soutenir un projet local ou nationale en faveur de
-                l’environnement dans les pays où nous interviendrons.
+                <span className="orange-text">Soutenir</span> un projet local ou
+                nationale en faveur de l’environnement dans les pays où nous
+                interviendrons.
               </p>
               <p className="text-who-materrenelles">
-                Impliquer le tissu économique et social local pour tous nos
-                projets.
+                <span className="orange-text">Impliquer</span> le tissu
+                économique et social local pour tous nos projets.
               </p>
               <p className="text-who-materrenelles">
-                Mobiliser les partenaires et les habitants par des actions de
-                terrain contribuant à la protection de l’environnement.
+                <span className="orange-text">Mobiliser</span> les partenaires
+                et les habitants par des actions de terrain contribuant à la
+                protection de l’environnement.
               </p>
               <p className="text-who-materrenelles">
-                Suivre et mesurer dans le temps les actions mises en place.
+                <span className="orange-text">Suivre et mesurer</span> dans le
+                temps les actions mises en place.
               </p>
             </div>
           </div>

@@ -22,32 +22,44 @@ export default function Objectif() {
         </div>
         <div className="retour-premiere-experience">
           <h1 className="title-retour-premiere-experience">
-            Retour sur notre premier rallye en juin 2022
+            Retour sur notre{" "}
+            <span className="orange-title">premier rallye</span> en juin 2022
           </h1>
           <p className="text-retour-premiere-experience">
             Les sourires sur nos visages en disent long sur notre joie d'être
             là, parmi tous ces humains incroyables à savourer le momentprésent.
           </p>
           <p className="text-retour-premiere-experience">
-            On se rend compte alors que seul(e) on n'est rien face à la force du
-            collectif, que l'#entraide prévaut sur la compétition quand les âmes
-            savent se connecter et que nous ne représentons pas grand chose face
-            à la grandeur et la puissance de la nature.
+            On se rend compte alors que{" "}
+            <span className="brown-text">
+              seul(e) on n'est rien face à la force du
+            </span>
+            , que l'entraide prévaut sur la compétition quand les âmes savent se
+            connecter et que nous ne représentons pas grand chose face à la
+            grandeur et la puissance de la nature.
           </p>
           <p className="text-retour-premiere-experience">
             Une preuve de plus, s'il en fallait, qu'il faut oeuvrer au quotidien
-            pour espérer permettre aux générations futures de savourer à leur
-            tour de se reconnecter à la nature et à soi.
+            pour espérer{" "}
+            <span className="brown-text">
+              permettre aux générations futures de savourer à leur tour de se
+              reconnecter à la nature et à soi
+            </span>
+            .
           </p>
           <p className="text-retour-premiere-experience">
             Pendant une semaine, on remet les choses à leur juste place.
             (sûrement pour ça que c'est si difficile de redescendre...) C'est
-            sur et certain, il y a un avant et un après Natur'Elles Aventures,
+            sur et certain,{" "}
+            <span className="brown-text">
+              il y a un avant et un après Natur'Elles Aventures
+            </span>
             ça nous change..
           </p>
           <p className="text-retour-premiere-experience">
-            Alors merci Mutuaide de nous avoir fait confiance et de nous avoir
-            permis de vivre cette aventure incroyable."
+            Alors <span className="brown-text">merci Mutuaide</span> de nous
+            avoir fait confiance et de nous avoir permis de vivre cette aventure
+            incroyable."
           </p>
         </div>
         <div className="info-objectif-norvege">
@@ -68,7 +80,7 @@ export default function Objectif() {
             </div>
             <div className="norvege-explications">
               <h1 className="title-norvege-explications">
-                Le but de notre rallye en Norvège
+                Le <span className="orange-title">but</span> de notre rallye en Norvège
               </h1>
               <p className="text-norvege-explications">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed

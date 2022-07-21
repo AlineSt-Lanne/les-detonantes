@@ -24,6 +24,17 @@ export default function Contact() {
     setIsUserClick(!isUserClick);
   }
   const maximumReached = content.length >= MAX_LENGTH;
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    fetch(`${import.meta.env.VITE_BACKEND_URL}/sendmail`, {
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      method: "POST",
+      body: JSON.stringify({ email, objet, message }),
+    });
+  };
 
   return (
     <div className="contact-container">
@@ -35,7 +46,7 @@ export default function Contact() {
           <h1 className="title-contact-form">Nous contacter</h1>
         </div>
         <div className="contact">
-          <form name="contact" method="post">
+          <form onSubmit={handleSubmit} name="contact" method="post">
             <label htmlFor="name">
               Nom - Société *
               <input

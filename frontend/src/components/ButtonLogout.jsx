@@ -4,8 +4,8 @@ import "./styles/ButtonLogout.css";
 
 function ButtonLogout({ handleLogout }) {
   return (
-    <button type="submit" className="profile-logout" onClick={handleLogout}>
-      Me déconnecter
+    <button type="submit" className="button-logout" onClick={handleLogout}>
+      <h3>Me déconnecter</h3>
     </button>
   );
 }
