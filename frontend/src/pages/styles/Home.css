@@ -80,6 +80,14 @@
   margin-bottom: 2rem;
 }
 
+.sponsors-home {
+  background-color: var(--light-beige);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (min-width: 769px) {
   .imagecard {
     margin-top: 8rem;
