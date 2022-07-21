@@ -1,0 +1,23 @@
+.buttonconnexion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  max-width: 500px;
+  height: 15vw;
+  max-height: 70px;
+  background-color: var(--orange);
+  color: var(--white);
+  font-family: var(--font);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 769px) {
+  .buttonconnexion {
+    width: 30vw;
+    margin-bottom: 2rem;
+  }
+  .buttonconnexion h3 {
+    font-size: 1.3rem;
+  }
+}
