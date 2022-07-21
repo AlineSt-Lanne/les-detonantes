@@ -17,17 +17,17 @@ export default function Navbar() {
         <div className="pictos-navbar">
           <div className="picto-car">
             <Link to="/rallye">
-              <AiFillCar />
+              <AiFillCar className="svg-icons" />
             </Link>
           </div>
           <div className="picto-objectif">
             <Link to="/objectif">
-              <GiStairsGoal />
+              <GiStairsGoal className="svg-icons" />
             </Link>
           </div>
           <div className="picto-contact">
             <Link to="/contact">
-              <GiLetterBomb />
+              <GiLetterBomb className="svg-icons" />
             </Link>
           </div>
         </div>

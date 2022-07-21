@@ -41,9 +41,11 @@ export default function Rallye() {
             N’Elles qui mène des actions en faveur de notre planète dans les
             pays que nous traversons
           </p>
-          <button className="button-site-naturelles" type="button">
-            En savoir plus
-          </button>
+          <a href="https://naturellesaventures.fr" target="_bank">
+            <button className="button-site-naturelles" type="button">
+              En savoir plus
+            </button>
+          </a>
         </div>
         <div className="photo-groupe-naturelles">
           <img
@@ -79,9 +81,11 @@ export default function Rallye() {
               </p>
             </div>
           </div>
-          <button className="button-site-materrenelles" type="button">
-            En savoir plus
-          </button>
+          <a href="https://www.materrenelles.fr" target="_bank">
+            <button className="button-site-materrenelles" type="button">
+              En savoir plus
+            </button>
+          </a>
         </div>
       </div>
       <div className="rallye-scrollbutton">

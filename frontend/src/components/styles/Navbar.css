@@ -10,13 +10,14 @@
 
 .logo-navbar {
   width: 35%;
+  margin-left: 1rem;
 }
 
 .align-navbar-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .pictos-navbar {
@@ -25,18 +26,16 @@
   align-items: center;
 }
 
-.picto-car,
-.picto-objectif,
-.picto-contact {
+.svg-icons {
   color: var(--white);
-  margin-left: 3rem;
+  font-size: 1.7rem;
+  margin-right: 3rem;
 }
 
 .picto-car h1,
 .picto-objectif h1,
 .picto-contact h1 {
   color: var(--white);
-  font-size: 0.7rem;
 }
 
 @media screen and (min-width: 769px) {
@@ -46,11 +45,12 @@
 
   .logo-navbar {
     width: 28%;
+    margin-left: 3rem;
   }
 
-  .picto-car,
-  .picto-objectif,
-  .picto-contact {
-    margin-left: 12rem;
+  .svg-icons {
+    color: var(--white);
+    font-size: 3rem;
+    margin-right: 15rem;
   }
 }

@@ -1,4 +1,6 @@
+import React, { useEffect, useState } from "react";
 import "./styles/Home.css";
+import axios from "axios";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -8,8 +10,23 @@ import paulette from "../assets/paulette.jpg";
 import vicky from "../assets/vicky.jpg";
 import sixteen from "../assets/sixteen.jpg";
 import mapworld from "../assets/map-world.png";
+import SponsorItem from "../components/SponsorItem";
 
 export default function Home() {
+  const [sponsors, setSponsors] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get(`${import.meta.env.VITE_BACKEND_URL}/sponsors`)
+      .then((res) => res.data)
+      .then((data) => {
+        setSponsors(data);
+      })
+      .catch((err) => {
+        console.warn(err);
+      });
+  }, []);
+
   return (
     <div className="home-container">
       <div className="home-navbar">
@@ -86,6 +103,13 @@ export default function Home() {
             </button>
           </Link>
         </div>
+      </div>
+      <div className="sponsors-home">
+        {sponsors.map((sponsor) => (
+          <Link key={sponsors.id} to={`/sponsors/${sponsors.id}`}>
+            <SponsorItem sponsor={sponsor} />
+          </Link>
+        ))}
       </div>
       <div className="home-scrollbutton">
         <ScrollButton />
