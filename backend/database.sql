@@ -10,6 +10,12 @@ CREATE TABLE `sponsors`(
   PRIMARY KEY(`id`)
 );
 
+INSERT INTO `sponsors` (image, name, category) VALUES
+("https://postimg.cc/rDHCg5LL", "Mutuaide Assistance", "Assurance"),
+("https://postimg.cc/r0xJDs32", "Decathlon", "Sport"),
+("https://postimg.cc/y36v2Bpq", "Nantes", "Ville"),
+("https://postimg.cc/S2krzkhX", "Télénantes", "Audiovisuelle");
+
 DROP TABLE IF EXISTS admin;
 
 CREATE TABLE `admin`(
@@ -19,12 +25,6 @@ CREATE TABLE `admin`(
   `role` varchar(255) NULL,
   PRIMARY KEY(`id`)
 );
-
-INSERT INTO `sponsors` (image, name, category) VALUES
-("https://postimg.cc/rDHCg5LL", "Mutuaide Assistance", "Assurance"),
-("https://postimg.cc/r0xJDs32", "Decathlon", "Sport"),
-("https://postimg.cc/y36v2Bpq", "Nantes", "Ville"),
-("https://postimg.cc/S2krzkhX", "Télénantes", "Audiovisuelle");
 
 INSERT INTO `admin` (pseudo, password, role) VALUES
 ("Vicky", "$2b$10$uATpkS2uDrBZsey2TevZzeCu1kFjoKv7rwypcWctHl34rszrZ/c16", "ROLE_ADMIN"),
