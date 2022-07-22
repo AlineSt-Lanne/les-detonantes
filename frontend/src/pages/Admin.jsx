@@ -38,7 +38,7 @@ function Admin() {
         <SponsorAdd />
       </div>
       <div className="button-logout-admin">
-        <Link to="/">
+        <Link to="/loginadmin">
           <ButtonLogout handleSubmit={handleLogout} />
         </Link>
       </div>
