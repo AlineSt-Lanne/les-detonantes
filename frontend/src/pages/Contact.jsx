@@ -104,6 +104,7 @@ export default function Contact() {
               className="contactbutton"
               type="submit"
               value="submit"
+              style={{ cursor: "pointer" }}
               onClick={handleClick}
             >
               Envoyer

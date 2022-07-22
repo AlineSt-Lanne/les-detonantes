@@ -108,7 +108,11 @@ export default function Home() {
             <img className="map-world" src={mapworld} alt="map-world" />
           </div>
           <Link to="/objectif">
-            <button className="button-home-objectif" type="button">
+            <button
+              className="button-home-objectif"
+              type="button"
+              style={{ cursor: "pointer" }}
+            >
               En savoir plus
             </button>
           </Link>
