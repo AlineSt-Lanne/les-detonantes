@@ -28,7 +28,8 @@ export default function Rallye() {
         </div>
         <div className="who-naturelles">
           <h1 className="title-who-naturelles">
-            <span className="orange-title">Natur'Elles Aventures</span>  c'est quoi?
+            <span className="orange-title">Natur'Elles Aventures</span> c'est
+            quoi?
           </h1>
           <p className="text-who-naturelles">
             La première organisation au monde à proposer{" "}
@@ -45,7 +46,11 @@ export default function Rallye() {
             pays que nous traversons
           </p>
           <a href="https://naturellesaventures.fr" target="_bank">
-            <button className="button-site-naturelles" type="button">
+            <button
+              className="button-site-naturelles"
+              type="button"
+              style={{ cursor: "pointer" }}
+            >
               En savoir plus
             </button>
           </a>
@@ -88,7 +93,11 @@ export default function Rallye() {
             </div>
           </div>
           <a href="https://www.materrenelles.fr" target="_bank">
-            <button className="button-site-materrenelles" type="button">
+            <button
+              className="button-site-materrenelles"
+              type="button"
+              style={{ cursor: "pointer" }}
+            >
               En savoir plus
             </button>
           </a>

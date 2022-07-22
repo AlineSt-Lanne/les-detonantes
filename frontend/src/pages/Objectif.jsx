@@ -80,7 +80,8 @@ export default function Objectif() {
             </div>
             <div className="norvege-explications">
               <h1 className="title-norvege-explications">
-                Le <span className="orange-title">but</span> de notre rallye en Norvège
+                Le <span className="orange-title">but</span> de notre rallye en
+                Norvège
               </h1>
               <p className="text-norvege-explications">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed

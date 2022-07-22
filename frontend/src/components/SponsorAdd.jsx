@@ -84,7 +84,11 @@ export default function SponsorAdd() {
             onChange={(e) => setCategory(e.target.value)}
           />
         </label>
-        <button className="buttonaddsponsor" type="submit">
+        <button
+          className="buttonaddsponsor"
+          type="submit"
+          style={{ cursor: "pointer" }}
+        >
           Ajouter un sponsor
         </button>
       </form>

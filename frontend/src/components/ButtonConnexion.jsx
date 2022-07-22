@@ -4,7 +4,12 @@ import PropTypes from "prop-types";
 
 function ButtonConnexion({ handleSubmit }) {
   return (
-    <button type="submit" className="buttonconnexion" onClick={handleSubmit}>
+    <button
+      type="submit"
+      className="buttonconnexion"
+      style={{ cursor: "pointer" }}
+      onClick={handleSubmit}
+    >
       <h3>CONNEXION</h3>
     </button>
   );

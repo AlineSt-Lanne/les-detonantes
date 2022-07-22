@@ -39,7 +39,7 @@ function Admin() {
       </div>
       <div className="button-logout-admin">
         <Link to="/">
-          <ButtonLogout handleSubmit={handleLogout}/>
+          <ButtonLogout handleSubmit={handleLogout} />
         </Link>
       </div>
     </div>
