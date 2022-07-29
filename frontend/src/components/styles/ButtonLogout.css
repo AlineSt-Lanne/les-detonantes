@@ -1,0 +1,31 @@
+.button-logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    max-width: 500px;
+    height: 10vw;
+    max-height: 70px;
+    background-color: var(--blue);
+    color: var(--brown);
+    font-family: var(--font);
+    text-decoration: none;
+    transition: background-color 200ms ease, box-shadow 200ms ease;
+    box-shadow: 3px 3px 3px #777;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  
+  @media screen and (min-width: 769px) {
+    .button-logout {
+      width: 15vw;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+      margin-left: 5rem;
+
+    }
+    .button-logout h3 {
+      font-size: 1.2rem;
+    }
+  }
+  

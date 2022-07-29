@@ -1,0 +1,58 @@
+.navbar-container {
+  background-color: var(--orange);
+  width: 100vw;
+  height: 5rem;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 1px 1px 4px #777777;
+}
+
+.logo-navbar {
+  width: 35%;
+  margin-left: 1rem;
+}
+
+.align-navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pictos-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.svg-icons {
+  color: var(--white);
+  font-size: 1.7rem;
+  margin-right: 3rem;
+}
+
+.picto-car h1,
+.picto-objectif h1,
+.picto-contact h1 {
+  color: var(--white);
+}
+
+@media screen and (min-width: 769px) {
+  .navbar-container {
+    height: 8rem;
+    box-shadow: 2px 2px 6px #777777;
+  }
+
+  .logo-navbar {
+    width: 28%;
+    margin-left: 3rem;
+  }
+
+  .svg-icons {
+    color: var(--white);
+    font-size: 3rem;
+    margin-right: 15rem;
+  }
+}

@@ -1,13 +1,26 @@
 const express = require("express");
 
-const { ItemController } = require("./controllers");
+const {
+  UserController,
+  SponsorController,
+  MailController,
+} = require("./controllers");
 
 const router = express.Router();
+const { authorization } = require("./middlewares/authMiddleware");
+const { isAdmin } = require("./middlewares/isAdminMiddleware");
 
-router.get("/items", ItemController.browse);
-router.get("/items/:id", ItemController.read);
-router.put("/items/:id", ItemController.edit);
-router.post("/items", ItemController.add);
-router.delete("/items/:id", ItemController.delete);
+router.get("/sponsors", SponsorController.browse);
+router.get("/sponsors/:id", SponsorController.read);
+
+/* BACKEND pr rajouter un sponsor */
+router.post("/sponsors", SponsorController.add);
+
+router.get("/users", authorization, isAdmin, UserController.browse);
+router.post("/users/login", UserController.login);
+router.get("/users/logout", authorization, UserController.logout);
+
+/* BACKEND pr envoyer mail */
+router.post("/sendmail", MailController.send);
 
 module.exports = router;

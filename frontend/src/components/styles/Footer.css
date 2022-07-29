@@ -1,0 +1,67 @@
+.footer-container {
+  background-color: var(--brown);
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info-mail {
+  color: var(--orange);
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+}
+
+.mail {
+  font-size: 0.7rem;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  font-weight: 400;
+}
+
+.svg-icons2 {
+  color: var(--white);
+  font-size: 1.7rem;
+}
+
+.pictos-reseauxsociaux {
+  display: flex;
+  flex-direction: row;
+  margin-left: 6rem;
+}
+
+.picto-insta,
+.picto-linkedin {
+  margin-right: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+  .footer-container {
+    height: 8rem;
+  }
+
+  .info-mail {
+    margin-left: 2rem;
+  }
+
+  .mail {
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    font-weight: 400;
+  }
+
+  .pictos-reseauxsociaux {
+    margin-left: 30rem;
+  }
+
+  .picto-insta,
+  .picto-linkedin {
+    margin-left: 6rem;
+  }
+
+  .svg-icons2 {
+    font-size: 3rem;
+  }
+}
